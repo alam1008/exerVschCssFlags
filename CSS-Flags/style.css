@@ -1,0 +1,119 @@
+body {
+  background-color: gainsboro;
+}
+.france {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px;
+}
+.item1 {
+  background-color: #002495;
+}
+.item2 {
+  background-color: #FFFFFF;
+}
+.item3 {
+  background-color: #ED2938;
+}
+.germany {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 100px;
+}
+.item4 {
+  background-color: #000000;
+}
+.item5 {
+  background-color: #DE0002;
+}
+.item6 {
+  background-color: #FFCE00;
+}
+.madagascar {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  padding-top: 100px;
+}
+.item7 {
+  background-color: #FFFFFF;
+  grid-row: 1 / -1;
+}
+.item8 {
+  background-color: #FC3E32;
+  grid-column-end: span 2;
+}
+.item9 {
+  background-color: #007E39;
+  grid-column-end: span 2;
+}
+.japan {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px;
+  padding-top: 100px;
+  position: relative;
+}
+.item10 {
+  background-color: #FFFFFF;
+}
+.dot {
+  height: 110px;
+  width: 110px;
+  background-color: #BC022C; 
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -155px;
+  left: 95px;
+}
+.switzerland {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+}
+.item11 {
+  background-color: #FF0002;
+  grid-column-end: span 5;
+}
+.item12 {
+  background-color: #FF0002;
+  grid-column-end: span 2;
+}
+.item13 {
+  background-color: white;
+  grid-column-end: span 1;
+}
+.item14 {
+  background-color: #FF0002;
+  grid-column-end: span 2;
+}
+.item15 {
+  background-color: #FF0002;
+  grid-column-end: span 1;
+}
+.item16 {
+  background-color: white;
+  grid-column-end: span 3;
+}
+.item17 {
+  background-color: #FF0002;
+  grid-column-end: span 1;
+}
+.item18 {
+  background-color: #FF0002;
+  grid-column-end: span 2;
+}
+.item19 {
+  background-color: white;
+  grid-column-end: span 1
+}
+.item20 {
+  background-color: #FF0002;
+  grid-column-end: span 2;
+}
+.item21 {
+  background-color: #FF0002;
+  grid-column-end: span 5;
+}
